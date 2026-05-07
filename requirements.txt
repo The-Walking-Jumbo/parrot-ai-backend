@@ -13,7 +13,7 @@ livekit-plugins-deepgram==0.6.0
 livekit-plugins-elevenlabs==0.6.0
 livekit-plugins-silero==0.6.0
 groq==0.4.2
-sarvam==0.1.5
+sarvamai
 openai==1.10.0
 google-cloud-storage==2.14.0
 cryptography==42.0.0
