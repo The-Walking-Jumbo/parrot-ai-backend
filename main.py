@@ -7,7 +7,11 @@ app = FastAPI(title="VoBiz API", version="1.0.0")
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, specify your frontend domain
+    allow_origins=[
+         "http://localhost:3000",
+        "http://localhost:3001",
+        "https://parrot-ai.twjlabs.com",  # add your deployed frontend URL here too
+    ],  # In production, specify your frontend domain
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
