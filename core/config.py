@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     LIVEKIT_API_SECRET: str
 
     # Turso Database
-    DATABASE_URL: str
+    TURSO_DATABASE_URL: str
     TURSO_AUTH_TOKEN: str
 
     # Upstash Redis

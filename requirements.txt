@@ -11,12 +11,15 @@ livekit-agents==0.8.0
 livekit-plugins-deepgram==0.6.0
 livekit-plugins-elevenlabs==0.6.0
 livekit-plugins-silero==0.6.0
+livekit-plugins-cartesia
+livekit-plugins-openai==0.6.0
 groq==0.4.2
 sarvamai
-openai==1.10.0
+openai>=1.30.0
 google-cloud-storage==2.14.0
 cryptography==42.0.0
-libsql-client==0.3.0
+libsql
+python-dotenv
 pydantic==2.5.3
 pydantic-settings==2.1.0
 PyPDF2==3.0.1
